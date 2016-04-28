@@ -147,6 +147,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        GeneaLabs\Phpgmaps\PhpgmapsServiceProvider::class,
+        Sapioweb\Geocode\GeocodeServiceProvider::class,
+        Nkootstra\Geocode\GeocodeServiceProvider::class,
 
         /*
          * Application Service Providers...

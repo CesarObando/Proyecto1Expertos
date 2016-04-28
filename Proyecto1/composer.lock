@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c284a9c122da36c99a8b6597bdce7aa6",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "aca6a9225c56e23f3160edc461c6791a",
+    "content-hash": "0d258d76a3647fa376f3bf64cc165a0d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -739,6 +739,63 @@
             "time": "2016-04-19 13:41:41"
         },
         {
+            "name": "nkootstra/geocode",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nkootstra/geocode.git",
+                "reference": "48a265a860d2fc3631f6ea6c2336f2a3386e9c06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nkootstra/geocode/zipball/48a265a860d2fc3631f6ea6c2336f2a3386e9c06",
+                "reference": "48a265a860d2fc3631f6ea6c2336f2a3386e9c06",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nkootstra\\Geocode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Beasley",
+                    "email": "andreas@sapioweb.com"
+                },
+                {
+                    "name": "Niels Kootstra",
+                    "email": "niels.kootstra@gmail.com"
+                }
+            ],
+            "description": "PHP geocoding for laravel 5 & 5.1 using Google API",
+            "homepage": "http://localhost",
+            "keywords": [
+                "api",
+                "beasley",
+                "country",
+                "formatted address",
+                "geocode",
+                "google",
+                "laravel",
+                "sapioweb",
+                "service provider",
+                "service providers"
+            ],
+            "time": "2016-02-17 17:26:40"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v1.4.1",
             "source": {
@@ -895,6 +952,57 @@
                 "shell"
             ],
             "time": "2016-03-09 05:03:14"
+        },
+        {
+            "name": "sapioweb/geocode",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SapioBeasley/geocode.git",
+                "reference": "1b1d8658ee47db9050f26f9892251054d12ca515"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SapioBeasley/geocode/zipball/1b1d8658ee47db9050f26f9892251054d12ca515",
+                "reference": "1b1d8658ee47db9050f26f9892251054d12ca515",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sapioweb\\Geocode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Beasley",
+                    "email": "andreas@sapioweb.com"
+                }
+            ],
+            "description": "PHP geocoding for laravel 5 & 5.1 using Google API",
+            "homepage": "http://localhost",
+            "keywords": [
+                "api",
+                "beasley",
+                "geocode",
+                "google",
+                "laravel",
+                "sapioweb",
+                "service provider",
+                "service providers"
+            ],
+            "time": "2016-04-25 18:47:15"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1885,6 +1993,61 @@
                 "fixtures"
             ],
             "time": "2015-05-29 06:29:14"
+        },
+        {
+            "name": "genealabs/phpgmaps",
+            "version": "0.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeneaLabs/Phpgmaps.git",
+                "reference": "45226b7306d6e4f07eb2f2fc1778b0bdb3042bd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeneaLabs/Phpgmaps/zipball/45226b7306d6e4f07eb2f2fc1778b0bdb3042bd1",
+                "reference": "45226b7306d6e4f07eb2f2fc1778b0bdb3042bd1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-laravel4": "1.0-dev",
+                    "dev-develop": "2.0-dev",
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GeneaLabs\\Phpgmaps\\": "src/GeneaLabs/Phpgmaps/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Bronner",
+                    "email": "mike@genealabs.com",
+                    "role": "maintainer"
+                },
+                {
+                    "name": "Michael Hopkins",
+                    "role": "developer"
+                }
+            ],
+            "description": "Laravel implementation of BIOSTALL's CodeIgniter Google Maps API, originally by Michael Hopkins at Appitventures.",
+            "keywords": [
+                "biostall",
+                "googlemaps",
+                "laravel",
+                "phpgmaps"
+            ],
+            "time": "2016-01-12 04:29:58"
         },
         {
             "name": "hamcrest/hamcrest-php",
